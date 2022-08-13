@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:math';
 class Game {
   int answer = 0; //instant field ตัวแปรระดับ class
-  int count = 1; //
+  int count = 0; //
 
   Game({int maxRandom = 100}) {
     var r = Random();
